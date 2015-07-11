@@ -1,0 +1,4 @@
+node_modules
+build
+*.log
+bower_components

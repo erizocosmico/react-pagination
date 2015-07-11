@@ -1,0 +1,44 @@
+{
+  "name": "react-component-bootstrap",
+  "version": "0.0.1",
+  "description": "Quick bootstrap for writing react isolated components distributed as libraries with ES6. Comes with webpack and karma for testing.",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.config.js",
+    "start": "./node_modules/webpack/bin/webpack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvader/react-component-bootstrap.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "component",
+    "bootstrap",
+    "karma"
+  ],
+  "author": "Miguel Molina <hi@mvader.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvader/react-component-bootstrap/issues"
+  },
+  "homepage": "https://github.com/mvader/react-component-bootstrap",
+  "dependencies": {
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.2.2",
+    "istanbul-instrumenter-loader": "^0.1.3",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.37",
+    "karma-coverage": "^0.4.2",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "karma-webpack": "^1.5.1",
+    "node-libs-browser": "^0.5.2",
+    "phantomjs": "^1.9.17",
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.10.1"
+  }
+}

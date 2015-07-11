@@ -1,0 +1,23 @@
+{
+  "name": "your fancy component",
+  "version": "your fancy version",
+  "main": "your entry point",
+  "description": "fancy description",
+  "license": "MIT",
+  "authors": [{
+    "name": "Fancy Foo",
+    "email": "fancy@foo.me",
+    "homepage": "http://foo.me"
+  }],
+  "keywords": [],
+  "ignore": [
+    ".jshintrc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "repo url"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
