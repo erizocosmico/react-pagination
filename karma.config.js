@@ -5,10 +5,10 @@ module.exports = function (config) {
   config.set({
     frameworks: [ 'jasmine' ],
     files: [
+      './node_modules/phantomjs-polyfill/bind-polyfill.js',
       'tests/**/*_spec.js'
     ],
     autoWatch: true,
-    singleRun: true,
     plugins: [webpack, 'karma-jasmine', 'karma-phantomjs-launcher', 'karma-coverage'],
     browsers: [ 'PhantomJS' ],
     preprocessors: {

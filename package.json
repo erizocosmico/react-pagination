@@ -1,28 +1,27 @@
 {
-  "name": "react-component-bootstrap",
-  "version": "0.0.1",
-  "description": "Quick bootstrap for writing react isolated components distributed as libraries with ES6. Comes with webpack and karma for testing.",
+  "name": "react-pagination",
+  "version": "1.0.0",
+  "description": "Simple yet configurable react pagination component.",
   "scripts": {
     "test": "./node_modules/karma/bin/karma start karma.config.js",
     "start": "./node_modules/webpack/bin/webpack.js"
   },
+  "main": "src/pagination.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mvader/react-component-bootstrap.git"
+    "url": "https://github.com/mvader/react-pagination.git"
   },
   "keywords": [
     "react",
-    "webpack",
-    "component",
-    "bootstrap",
-    "karma"
+    "pagination",
+    "component"
   ],
   "author": "Miguel Molina <hi@mvader.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mvader/react-component-bootstrap/issues"
+    "url": "https://github.com/mvader/react-pagination/issues"
   },
-  "homepage": "https://github.com/mvader/react-component-bootstrap",
+  "homepage": "https://github.com/mvader/react-pagination",
   "dependencies": {
     "react": "^0.13.3"
   },
@@ -38,6 +37,7 @@
     "karma-webpack": "^1.5.1",
     "node-libs-browser": "^0.5.2",
     "phantomjs": "^1.9.17",
+    "phantomjs-polyfill": "0.0.1",
     "webpack": "^1.10.1",
     "webpack-dev-server": "^1.10.1"
   }

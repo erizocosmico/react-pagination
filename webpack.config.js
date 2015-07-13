@@ -1,7 +1,7 @@
 // Things you have to config
-var BUNDLE_NAME		= 'bundle name.min.js';
-var ENTRY_FILE    = 'entry file.js';
-var LIBRARY       = 'library name';
+var BUNDLE_NAME		= 'react-pagination.min.js';
+var ENTRY_FILE    = 'pagination.js';
+var LIBRARY       = 'reactPagination';
 
 // Things you can but should not config
 var SOURCE_FOLDER	= __dirname + '/src/';

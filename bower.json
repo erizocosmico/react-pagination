@@ -1,21 +1,25 @@
 {
-  "name": "your fancy component",
-  "version": "your fancy version",
-  "main": "your entry point",
-  "description": "fancy description",
+  "name": "react-pagination",
+  "version": "1.0.0",
+  "main": "dist/react-pagination.min.js",
+  "description": "Simple yet configurable react pagination component.",
   "license": "MIT",
   "authors": [{
-    "name": "Fancy Foo",
-    "email": "fancy@foo.me",
-    "homepage": "http://foo.me"
+    "name": "Miguel Molina",
+    "email": "hi@mvader.me",
+    "homepage": "http://mvader.me"
   }],
-  "keywords": [],
+  "keywords": [
+    "react",
+    "pagination",
+    "component"
+  ],
   "ignore": [
     ".jshintrc"
   ],
   "repository": {
     "type": "git",
-    "url": "repo url"
+    "url": "https://github.com/mvader/react-pagination.git"
   },
   "dependencies": {
     "react": "^0.13.3"
