@@ -1,6 +1,15 @@
-# react-pagination
+# react-pagination [![Build Status](https://travis-ci.org/mvader/react-pagination.svg)](https://travis-ci.org/mvader/react-pagination)
 
 React pagination is a very simple yet configurable pagination component built with React.
+
+## Install
+```
+bower install react-pagination
+```
+or
+```
+npm install react-pagination
+```
 
 ## API
 
